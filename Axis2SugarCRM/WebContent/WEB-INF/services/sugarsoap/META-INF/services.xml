@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- This file was auto-generated from WSDL --><!-- by the Apache Axis2 version: 1.5.3  Built on : Nov 12, 2010 (02:24:07 CET) --><serviceGroup>
+    <service name="sugarsoap">
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/ns/wsdl/in-out" class="com.sugarcrm.www.sugarcrm.SugarsoapMessageReceiverInOut"/>
+        </messageReceivers>
+        <parameter name="ServiceClass">com.sugarcrm.www.sugarcrm.SugarsoapSkeleton</parameter>
+        <parameter name="useOriginalwsdl">true</parameter>
+        <parameter name="modifyUserWSDLPortAddress">true</parameter>
+        <operation name="set_note_attachment" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/set_note_attachment</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/set_note_attachmentResponse</outputActionMapping>
+        </operation>
+        <operation name="logout" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/logout</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/logoutResponse</outputActionMapping>
+        </operation>
+        <operation name="get_user_id" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_user_id</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_user_idResponse</outputActionMapping>
+        </operation>
+        <operation name="set_relationships" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/set_relationships</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/set_relationshipsResponse</outputActionMapping>
+        </operation>
+        <operation name="set_entry" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/set_entry</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/set_entryResponse</outputActionMapping>
+        </operation>
+        <operation name="get_available_modules" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_available_modules</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_available_modulesResponse</outputActionMapping>
+        </operation>
+        <operation name="login" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/login</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/loginResponse</outputActionMapping>
+        </operation>
+        <operation name="get_user_team_id" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_user_team_id</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_user_team_idResponse</outputActionMapping>
+        </operation>
+        <operation name="get_document_revision" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_document_revision</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_document_revisionResponse</outputActionMapping>
+        </operation>
+        <operation name="get_entries_count" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_entries_count</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_entries_countResponse</outputActionMapping>
+        </operation>
+        <operation name="get_module_fields" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_module_fields</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_module_fieldsResponse</outputActionMapping>
+        </operation>
+        <operation name="set_relationship" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/set_relationship</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/set_relationshipResponse</outputActionMapping>
+        </operation>
+        <operation name="get_last_viewed" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_last_viewed</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_last_viewedResponse</outputActionMapping>
+        </operation>
+        <operation name="set_campaign_merge" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/set_campaign_merge</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/set_campaign_mergeResponse</outputActionMapping>
+        </operation>
+        <operation name="search_by_module" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/search_by_module</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/search_by_moduleResponse</outputActionMapping>
+        </operation>
+        <operation name="get_server_info" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_server_info</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_server_infoResponse</outputActionMapping>
+        </operation>
+        <operation name="get_module_fields_md5" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_module_fields_md5</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_module_fields_md5Response</outputActionMapping>
+        </operation>
+        <operation name="set_document_revision" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/set_document_revision</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/set_document_revisionResponse</outputActionMapping>
+        </operation>
+        <operation name="set_entries" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/set_entries</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/set_entriesResponse</outputActionMapping>
+        </operation>
+        <operation name="get_entry_list" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_entry_list</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_entry_listResponse</outputActionMapping>
+        </operation>
+        <operation name="get_upcoming_activities" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_upcoming_activities</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_upcoming_activitiesResponse</outputActionMapping>
+        </operation>
+        <operation name="get_relationships" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_relationships</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_relationshipsResponse</outputActionMapping>
+        </operation>
+        <operation name="get_note_attachment" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_note_attachment</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_note_attachmentResponse</outputActionMapping>
+        </operation>
+        <operation name="get_entry" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_entry</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_entryResponse</outputActionMapping>
+        </operation>
+        <operation name="get_entries" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/get_entries</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/get_entriesResponse</outputActionMapping>
+        </operation>
+        <operation name="seamless_login" mep="http://www.w3.org/ns/wsdl/in-out" namespace="http://www.sugarcrm.com/sugarcrm">
+            <actionMapping>http://localhost/sugarcrm/service/v3/soap.php/seamless_login</actionMapping>
+            <outputActionMapping>http://www.sugarcrm.com/sugarcrm/sugarsoapPortType/seamless_loginResponse</outputActionMapping>
+        </operation>
+    </service>
+</serviceGroup>
